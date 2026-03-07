@@ -20,6 +20,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Responsibilities:In-charge of Deliverables and Deadlines , Scheduling and tracking , Git expert
 
+### Chen Guanyou
+
+<img src="images/guanyouu.png" width="200px">
+
+[[github](https://github.com/guanyouu)]
+
+* Role: Code Quality / Integration Supervisor
 
 ### Jane Doe
 
@@ -50,12 +57,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Ariel Chua
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/arielchua.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/arielchua)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Documentation and User Guide
