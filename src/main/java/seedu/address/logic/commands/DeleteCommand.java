@@ -30,11 +30,21 @@ public class DeleteCommand extends Command {
     private final Index targetIndex;
     private final String targetName;
 
+    /**
+     * Creates a DeleteCommand to delete a student by displayed index.
+     *
+     * @param targetIndex Index of the student in the displayed student list.
+     */
     public DeleteCommand(Index targetIndex) {
         this.targetIndex = targetIndex;
         this.targetName = null;
     }
 
+    /**
+     * Creates a DeleteCommand to delete a student by students name.
+     *
+     * @param targetName Name of the student to delete.
+     */
     public DeleteCommand(String targetName) {
         this.targetIndex = null;
         this.targetName = targetName;
