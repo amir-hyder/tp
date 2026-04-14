@@ -496,9 +496,9 @@ For example, `uncancelw crs/CS2103T tg/T01 wk/5` restores week 5 for all student
 
 Uncancellation builds on the same `Week` and `WeekList` structures described in the Mark Attendance feature.
 
-<box type="info" seamless></box>
-
+<box type="info" seamless>
 **Note:** Transience of Previous Week Status
+</box>
 
 The `prevStatus` field in `Week` is transient and not persisted to storage. It is only used during runtime to support uncancellation within the same session.
 
@@ -577,7 +577,7 @@ The serialization process ensures that all metadata is preserved. The use of `Js
 The command does not mutate the original `Person` object. Instead, it creates a copy, adds the remark, and updates the model using `setPerson(...)`. This aligns with the application's immutability pattern.
 
 
-![Remark command sequence diagram](images/RemarkSequenceDiagram.puml)
+<puml src="images/RemarkSequenceDiagram.puml" />
 
 ### Feature: View Command
 
